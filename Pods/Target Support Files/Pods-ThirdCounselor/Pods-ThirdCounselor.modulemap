@@ -1,0 +1,6 @@
+framework module Pods_ThirdCounselor {
+  umbrella header "Pods-ThirdCounselor-umbrella.h"
+
+  export *
+  module * { export * }
+}
