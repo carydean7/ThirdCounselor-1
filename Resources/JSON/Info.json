@@ -1,0 +1,102 @@
+{
+    "contents":
+    [
+        {
+            "screen" : "Initial App Launch",
+            "instructions": "When first launching the app the user will be required to select and enter the following information: Unit Type e.g. Stake, Ward or Branch, Unit Number and their current calling e.g. Bishopric First Counselor.",
+            "functions" : [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "screen" : "Login/Sign In",
+            "instructions": "Initial App Launch: On the Sign Up/Sign In screen the user will first create an account, entering a username and password.  For subsequent app launches the user will Sign In using their previously created username and password.  The Sign Up/Sign In process will be streamlines with the aid or biometrics/facial recognition.  If the user chooses not to allow automatic sigh in there will be an option to change password as needed.",
+            "functions" : [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "screen" : "Callings",
+            "instructions": "The Callings screen is the initial tab/screen displayed after successful Sign Up/Sign In.  This screen list the organizations for the unit. If the identified unit is a Stake the user will be able to see organizations relating to the Stake or by selecting the Unit button will be able to select a unit with in the stake and view the organizational information for the selected unit.  They will not be able to make changes to callings for a ward or branch pertaining to those calling requiring Stake level approval, calling, sustaining and setting apart actions.  Wards or branches can only make calling changes for their unit.",
+            "functions" : [
+                {
+                    "name": "Select",
+                    "topic": "Select Organization",
+                    "steps": "Tap on an organization name in the list to display the callings and members actively serving in those callings for the selected organization."
+                },
+                {
+                    "name": "Add",
+                    "topic": "Add Organization",
+                    "steps": "To add a new organization tap the Add Organization button icon located in the upper righthand corner of the screen.  Tapping the Add Organization button icon will display the ADD Organization dialog where the user can enter the name of the new organization.  Once the organization name is entered tapping the ADD button will dismiss the dialog and add the new organization name to the list or organizations in the unit.  Tapping the CANCEL button will dismiss the dialog.  No changes will have been made."
+                },
+                {
+                    "name": "Delete",
+                    "topic": "Delete Organization",
+                    "steps": "To delete or remove an organization swipe to the left on the organization name in the list.  Swiping will display the Delete Organization button. Tapping on the Delete Organization button will display an alert confirming to the user that the organization is to be deleted.  Selecting No will dismiss the alert and the organization will remain in the list.  Selecting the Yes button will remove the Organization from the list including any callings and members serving in those callings."
+                }
+            ] 
+        },
+        {
+            "screen" : "Callings Detail",
+            "instructions": "The Callings Detail screen displays the callings associated with the selected organization, and the those members currently serving in those callings.",
+            "functions" : [
+                {
+                    "name": "Change",
+                    "topic": "Recommended Change",
+                    "steps": "To make a recommended change to a calling, the user swipes to the left on the calling to be changed.  This action will display a Recommended Change button.  Tapping on this button will display the members sheet, listing all members for the unit.  From the members sheet the user can search for a member's name in the search field or use the alphabetic index on the righthand side.  Once the member is found tapping on the member name will dismiss the sheet and the calling will be updated with the newly selected members name.  Note: to dismiss the member sheet without making a change tap the X close button in the upper left hand corner of the sheet or simply drag the sheet in a downward direction."
+                },
+                {
+                    "name": "Switch",
+                    "topic": "Switch Organizations",
+                    "steps": "To switch to a different organization tap the Back button.  This will dismiss the Callings Detail screen returning to the list of organizaztions screen.  Note if recommended changes have been made tapping the Back will save those changes and dismiss the Callings Detail screen returning to the list of organizations screen."
+                }
+            ] 
+        },
+        {
+            "screen" : "Members",
+            "instructions": "The Members screen displays a list of all members in the unit.  If the identified unit is a Stake it will show all members in the stake.",
+            "functions" : [
+                {
+                    "name": "Add",
+                    "topic": "Add Member",
+                    "steps": "To add a member to the unit, tap the Add Member button icon in the upper right hand corner of the screen.  The Add Member button icon will display the Add Member dialog which contains a first and last name field.  Enter the members first and last in the indicated fields and tap the ADD button.  The ADD button will dismiss the Add Member dialog and add the members name to list of members.  Tapping the CANCEL button will dismiss the Add Member dialog without making any changes to the units membership."
+                },
+                {
+                    "name": "Calling",
+                    "topic": "View Calling(s)",
+                    "steps": "To show the calling(s) a member is currently serving in tap on the member name in the list.  Tapping again on the members name will hide the calling information."
+                },
+                {
+                    "name": "Delete",
+                    "topic": "Delete Member",
+                    "steps": "To delete a member from the unit membership, tap on the Edit button located in the center of upper section of the screen.  The Edit button will show a Delete Member button on the left edge of each member.  Tapping on the Delete Member button will display an alert confirming to the user that the Member is to be deleted.  Selecting No will dismiss the alert and the member will remain in the list.  Selecting the Yes button will remove the member from the list.  If the user is currently serving in a calling the member will be released from the calling."
+                }
+            ] 
+        },
+        {
+            "screen" : "Interviews",
+            "instructions": "The Interviews screen displays a list of scheduled interviews.  The interviews are organized based on the category or type of interview e.g. Recommends, Ordinations, Callings, Bishop/Branch or Stake President, Other.  Each interview displays the Member, Interview, Scheduled Date & Time and if the category is Ordinations the Ordination/Office.  To display the scheduled interviews for a given category tap on the category e.g. Recommends.  The Recommends section will expand displaying the recommend related interviews.",
+            "functions" : [
+                {
+                    "name": "interviewed",
+                    "topic": "Interviewed",
+                    "steps": "Once the interview has been completed the leader swipes to the left on the listed interview to display the Interviewed button.  Tapping the Interviewed button will remove the interview from the list.  Note: if the interview requires further action specific to sacrament meeting e.g. sustaining etc... the member information will be auto populated into the upcoming weeks conducting sheet."
+                },
+                {
+                    "name": "Calling",
+                    "topic": "View Calling(s)",
+                    "steps": "To show the calling(s) a member is currently serving in tap on the member name in the list.  Tapping again on the members name will hide the calling information."
+                },
+                {
+                    "name": "Delete",
+                    "topic": "Delete Member",
+                    "steps": "To delete a member from the unit membership, tap on the Edit button located in the center of upper section of the screen.  The Edit button will show a Delete Member button on the left edge of each member.  Tapping on the Delete Member button will display an alert confirming to the user that the Member is to be deleted.  Selecting No will dismiss the alert and the member will remain in the list.  Selecting the Yes button will remove the member from the list.  If the user is currently serving in a calling the member will be released from the calling."
+                }
+            ] 
+        }
+    ]
+}

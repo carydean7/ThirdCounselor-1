@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  ThirdCounselor
+
+  Created by Dean Wagstaff on 9/11/23.
+  
+*/
+
+"organizationsHeader" = "ORGANIZATIONS";
+"settingsTab" = "Settings";
+"callingsHeading" = "CALLINGS";
+"recommendedChange" = "Recommended Change";
+"membersHeading" = "MEMBERS";
+"search" = "Search";
+"edit" = "Edit";
+"deleteMember" = "Delete Member";
+"areYouSureYouWantToDeleteThisMember" = "Are you sure you want to delete this member?";
+"no" = "No";
+"yes" = "Yes";
+"done" = "Done";
+"addMember" = "Add Member";
+"enterTheFirstAndLastNameOfTheMemberBelow" = "Enter the first and last name of the member below:";
+"firstName" = "First name";
+"lastName" = "Last name";
+"cancel" = "CANCEL";
+"add" = "ADD";
+"interviewsHeading" = "INTERVIEWS";
+"recommends" = "Recommends";
+"ordinations" = "Ordinations";
+"callings" = "Callings";
+"bishopBranchOrStakePresident" = "Bishop/Branch or Stake President";
+"other" = "Other";
+"memberColumnHeading" = "Member";
+"interviewColumnHeading" = "Interview";
+"scheduledDateTimeColumnHeading" = "Scheduled Date & Time";
+"ordinationOfficeColumnHeading" = "Ordination/Office";
+"interviewed" = "Interviewed";
+
+

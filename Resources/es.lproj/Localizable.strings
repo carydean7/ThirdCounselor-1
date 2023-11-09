@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  ThirdCounselor
+
+  Created by Dean Wagstaff on 10/7/23.
+  
+*/
+
+"organizationsHeader" = "ORGANIZACIONES";
+"settingsTab" = "Ajustes";
+"callingsHeading" = "LLAMAMIENTOS";
+"recommendedChange" = "Cambio Recomendado";
+"membersHeading" = "MIEMBROS";
+"search" = "Buscar";
+"edit" = "Editar";
+"deleteMember" = "Eliminar Miembro";
+"areYouSureYouWantToDeleteThisMember" = "¿Estás seguro de que deseas eliminar a este miembro?";
+"no" = "No";
+"yes" = "Sí";
+"done" = "Hecho";
+"addMember" = "Añadir Miembro";
+"enterTheFirstAndLastNameOfTheMemberBelow" = "Ingrese el nombre y apellido del miembro a continuación:";
+"firstName" = "Nombre de pila";
+"lastName" = "Pellido";
+"cancel" = "CANCELAR";
+"add" = "AGREGAR";
+"interviewsHeading" = "ENTREVISTAS";
+"recommends" = "Recomienda";
+"ordinations" = "Ordenaciones";
+"callings" = "Llamamientos";
+"bishopBranchOrStakePresident" = "Obispo/Rama o Presidente de Estaca";
+"other" = "Otra";
+"memberColumnHeading" = "Miembro";
+"interviewColumnHeading" = "Entrevista";
+"scheduledDateTimeColumnHeading" = "Fecha y Hora Programadas";
+"ordinationOfficeColumnHeading" = "Ordenacion/Oficina";
+"interviewed" = "Entrevistada";
+"unitInformation" = "Información de la unidad";
+"leaderPositions" = "Posiciones de Lider";
+"selectYourLeadershipPosition" = "Seleccione su posición de Liderazgo";
+"enterUnitNumber" = "Ingrese el número de unidad";
+"missingOrIncorrectRequiredInformation" = "Información Requerida Faltante O Incorrecta";
+"selectingAUnitTypeAndEnteringTheCorrectUnitNumberAreRequired" = "Es Necesario Seleccionar un tipo de unidad e ingresar el número de unidad correcto.";

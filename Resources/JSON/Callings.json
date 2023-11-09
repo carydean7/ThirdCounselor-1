@@ -1,0 +1,424 @@
+{
+    "unitNumber": "asdf123",
+    "stakeNumber": "2224580",
+	"organizations":
+	[				
+		{	
+			"name" : "Young Women",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Class President"
+                            },
+							{
+                                "title": "Class First Counselor"
+                            },
+							{
+                                "title": "Class Second Counselor"
+                            },
+							{
+                                "title": "Class Secretary"
+                            },
+							{
+                                "title": "Specialist Camp Director"
+                            },
+							{
+                                "title": "Specialist Assistant Camp Director"
+                            }
+						]	
+		},
+		{	
+			"name" : "Relief Society",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Teacher"
+                            },
+							{
+                                "title": "Activity Coordinator"
+                            },
+							{
+                                "title": "Assistant Activity Coordinator"
+                            },
+							{
+                                "title": "Activity Committee Member"
+                            },
+							{
+                                "title": "Enrichment Committee Member"
+                            },
+							{
+                                "title": "Pianist"
+                            },
+							{
+                                "title": "Service Coordinator"
+                            },
+							{
+                                "title": "Assistant Service Coordinator"
+                            },
+							{
+                                "title": "Service Committee Member"
+                            }
+						]	
+		},
+		{	
+			"name" : "Priests Quorums",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Assistant"
+                            },
+							{
+                                "title": "Second Assistant"
+                            },
+							{
+                                "title": "Advisor"
+                            },
+							{
+                                "title": "Specialist"
+                            },
+							{
+                                "title": "Additional Callings"
+                            }
+						]			
+		},
+		{	
+			"name" : "Teachers Quorums",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Additional Callings"
+                            }
+						]			
+		},
+		{	
+			"name" : "Deacons Quorums",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Advisor"
+                            },
+							{
+                                "title": "Additional Callings"
+                            }
+						]			
+		},
+		{	
+			"name" : "Sunday School",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Gospel Doctrine Teacher"
+                            },
+							{
+                                "title": "Course 17 Teacher"
+                            },
+							{
+                                "title": "Course 16 Teacher"
+                            },
+							{
+                                "title": "Course 15 Teacher"
+                            },
+							{
+                                "title": "Course 14 Teacher"
+                            },
+							{
+                                "title": "Course 13 Teacher"
+                            },
+							{
+                                "title": "Course 12 Teacher"
+                            },
+							{
+                                "title": "Course 11 Teacher"
+                            },
+							{
+                                "title": "Unassigned Teacher"
+                            },
+							{
+                                "title": "Resource Center Specialist"
+                            },
+							{
+                                "title": "Additional Callings"
+                            }
+						]			
+		},
+		{	
+			"name" : "Primary",
+				"callings" : [
+							{
+                                "title": "President"
+                            },
+							{
+                                "title": "First Counselor"
+                            },
+							{
+                                "title": "Second Counselor"
+                            },
+							{
+                                "title": "Secretary"
+                            },
+							{
+                                "title": "Pianist"
+                            },
+							{
+                                "title": "Music Leader"
+                            },
+							{
+                                "title": "Valiant 10 Teacher"
+                            },
+							{
+                                "title": "Valiant 9 Teacher"
+                            },
+							{
+                                "title": "Valiant 8 Teacher"
+                            },
+							{
+                                "title": "CTR 7 Teacher"
+                            },
+							{
+                                "title": "CTR 6 Teacher"
+                            },
+							{
+                                "title": "CTR 5 Teacher"
+                            },
+							{
+                                "title": "CTR 4 Teacher"
+                            },
+							{
+                                "title": "Sunbeam Teacher"
+                            },
+							{
+                                "title": "Nursery Leader"
+                            },
+							{
+                                "title": "Worker"
+                            },
+							{
+                                "title": "Unassigned Teachers"
+                            },
+							{
+                                "title": "Activities Boys Leader 1"
+                            },
+							{
+                                "title": "Activities Girls Leader 1"
+                            },
+                            {
+                                "title": "Activities Boys Leader 2"
+                            },
+                            {
+                                "title": "Activities Girls Leader 2"
+                            },
+							{
+                                "title": "Additional Callings"
+                            }
+						]			
+		},
+		{	
+			"name" : "Ward Missionaries",
+				"callings" : [
+							{
+                                "title": "Leader"
+                            },
+							{
+                                "title": "Missionary"
+                            }
+						]			
+		},
+		{	
+			"name" : "Temple and Family History",
+				"callings" : [
+							{
+                                "title": "Leader"
+                            },
+							{
+                                "title": "Consultant"
+                            },
+							{
+                                "title": "Worker"
+                            }
+						]			
+		},
+		{	
+			"name" : "Young Single Adult",
+				"callings" : [
+							{
+                                "title": ""
+                            }
+						]			
+		},
+		{	
+			"name" : "Church Magazines",
+				"callings" : [
+                            {
+                                "title": ""
+                            }
+						]			
+		},
+		{	
+			"name" : "Employment and Welfare",
+				"callings" : [
+							{
+                                "title": "Welfare and Self-Reliance Specialist"
+                            }
+						]			
+		},
+		{	
+			"name" : "Facilities",
+				"callings" : [
+							{
+                                "title": "Building 1 Scheduler"
+                            },
+							{
+                                "title": "Building 2 Scheduler"
+                            }
+						]			
+		},
+		{	
+			"name" : "For the Strength of Youth",
+				"callings" : [
+                            {
+                                "title": ""
+                            }
+						]			
+		},
+		{	
+			"name" : "History",
+				"callings" : [
+							{
+                                "title": "Specialist"
+                            }
+						]			
+		},
+		{	
+			"name" : "Music",
+				"callings" : [
+							{
+                                "title": "Director"
+                            },
+							{
+                                "title": "Accompanist"
+                            },
+							{
+                                "title": "Organist or Pianist"
+                            },
+							{
+                                "title": "Priesthood Director"
+                            },
+							{
+                                "title": "Chairman"
+                            }
+						]			
+		},
+		{	
+			"name" : "Technology",
+				"callings" : [
+							{
+                                "title": "Email Communication Specialist"
+                            },
+							{
+                                "title": "IT Specialist"
+                            },
+							{
+                                "title": "Technology Specialist"
+                            }
+						]			
+		},
+		{	
+			"name" : "Additional Callings",
+				"callings" : [
+							{
+                                "title": "Asst. Eleven Year Old Scout Leader"
+                            },
+							{
+                                "title": "Asst. Libraian"
+                            },
+							{
+                                "title": "Choir President"
+                            },
+							{
+                                "title": "Cleaning Coordinator"
+                            },
+							{
+                                "title": "Den Chief"
+                            },
+							{
+                                "title": "Extractions"
+                            },
+							{
+                                "title": "Flag Coordinator"
+                            },
+							{
+                                "title": "Sacrament Meeting Greeter"
+                            },
+							{
+                                "title": "Special Needs Teacher"
+                            },
+							{
+                                "title": "Temple Worker"
+                            },
+							{
+                                "title": "Ward Bullentin"
+                            },
+							{
+                                "title": "Ward Paper"
+                            }
+						]			
+		}
+	]
+}

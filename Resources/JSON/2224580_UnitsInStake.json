@@ -1,0 +1,57 @@
+{
+    "unitNumber": "2224580",
+    "unitName": "Tremonton Utah South Stake",
+	"unitsInStake":
+	[
+        {
+            "unitType": "Ward",
+            "unitName": "Elwood 1st Ward",
+            "unitNumber": "2224581"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Elwood 2nd Ward",
+            "unitNumber": "2224582"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Elwood 4th Ward",
+            "unitNumber": "2224585"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Elwood 3rd Ward",
+            "unitNumber": "2224583"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 2nd Ward",
+            "unitNumber": "2224586"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 5th Ward",
+            "unitNumber": "2224587"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 10th Ward",
+            "unitNumber": "2224588"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 12th Ward",
+            "unitNumber": "2224589"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 14th Ward",
+            "unitNumber": "2224590"
+        },
+        {
+            "unitType": "Ward",
+            "unitName": "Tremonton 9th Ward",
+            "unitNumber": "2224584"
+        }
+    ]
+}

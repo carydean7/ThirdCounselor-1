@@ -1,0 +1,61 @@
+{
+    "unitNumber": "2224585",
+    "stakeNumber": "2224580",
+	"organizations":
+	[
+        {
+            "name" : "Bishopric"
+        },
+		{	
+			"name" : "Young Women"
+		},
+		{	
+			"name" : "Relief Society"
+		},
+		{	
+			"name" : "Priests Quorum"
+		},
+		{	
+			"name" : "Teachers Quorum"
+		},
+		{	
+			"name" : "Deacons Quorum"
+		},
+		{	
+			"name" : "Sunday School"
+		},
+		{	
+			"name" : "Primary"
+		},
+		{	
+			"name" : "Ward Missionaries"
+		},
+		{	
+			"name" : "Temple and Family History"
+		},
+		{	
+			"name" : "Young Single Adult"
+		},
+		{	
+			"name" : "Church Magazines"
+		},
+		{	
+			"name" : "Employment and Welfare"
+		},
+		{	
+			"name" : "Facilities"
+		},
+		{	
+			"name" : "History"
+		},
+		{	
+			"name" : "Music"
+		},
+		{	
+			"name" : "Technology"
+		},
+		{	
+			"name" : "Additional Callings"
+		}
+	]
+}
