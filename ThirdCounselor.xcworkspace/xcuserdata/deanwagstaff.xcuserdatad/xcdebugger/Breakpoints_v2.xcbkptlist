@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3AA5FAD-99BD-403F-AD3D-A2D6E99FBBDC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D936269C-4ADC-4270-B50C-43EF9C08175C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/MembersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "removeAnyEmptySectionLetters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A134670-C6BF-477C-B68A-1D02AE29AFA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Members/MultiSelectMembersListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C501A1D4-AA41-423E-9746-10C678055650"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Members/MultiSelectMembersListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "submit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E20DD70-90C9-4332-8480-FF05A3747967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0782E3E4-7199-4224-801F-2AC8E4829E05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/OrganizationsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47BFF960-E60D-4CCE-BC0E-0C78D418DED2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1726806-0ADA-4FC6-BF91-F6E2AEF04073"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgActionsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0876394B-DA2C-42EA-9918-2715B94BAF09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D0DD061-6B54-4655-9721-A803A5D520B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgActionsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0D0DD061-6B54-4655-9721-A803A5D520B3 - 1471a3a686cde8ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in ThirdCounselor.CallingsAndMbrsInOrgActionsListView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgActionsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "0D0DD061-6B54-4655-9721-A803A5D520B3 - 1e358af3a6d8fd97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ThirdCounselor.OrgMbrCalling, ThirdCounselor.OrgMbrCalling) -&gt; Swift.Bool in closure #1 () -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in ThirdCounselor.CallingsAndMbrsInOrgActionsListView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgActionsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96BD2D40-E519-4AB6-B099-3ED2A1F72648"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96BD2D40-E519-4AB6-B099-3ED2A1F72648 - d8683b1526be57e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "7460">
+               </Location>
+               <Location
+                  uuid = "96BD2D40-E519-4AB6-B099-3ED2A1F72648 - d8683b1526be4422"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "6316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9684615-279B-47F0-BB74-0371E67717B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9684615-279B-47F0-BB74-0371E67717B6 - d8683b1526be5483"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "14280">
+               </Location>
+               <Location
+                  uuid = "C9684615-279B-47F0-BB74-0371E67717B6 - d8683b1526be5483"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "13272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AC4521E-3B8D-47EB-B31D-601E22C3CD87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AC4521E-3B8D-47EB-B31D-601E22C3CD87 - d8683b1526be54c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "14348">
+               </Location>
+               <Location
+                  uuid = "5AC4521E-3B8D-47EB-B31D-601E22C3CD87 - be48414faca551df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFF62F5C-32AA-43AD-BC83-3C30A37A1998"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Prayers/AddPrayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07F82B54-20D8-4207-ACD5-4E3A3002263E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Prayers/AddPrayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FB287F4-850B-437C-9808-DC9D45E3D2A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D03CF230-1CE4-42AB-903C-71DC334BF45D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Organizations/CallingsAndMbrsInOrgListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99239518-EA0A-403B-AF39-99FE7F0B3849"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Prayers/AddPrayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F884EAEB-230F-41FE-BE7F-29586A075C0A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Prayers/AddPrayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B98A3469-8259-4758-85CC-E05F3C737A63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/ConductingSheetViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "setConductingSheetSection()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B98A3469-8259-4758-85CC-E05F3C737A63 - f9be57e914286565"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+               <Location
+                  uuid = "B98A3469-8259-4758-85CC-E05F3C737A63 - f9be57e914287af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+               <Location
+                  uuid = "B98A3469-8259-4758-85CC-E05F3C737A63 - f9be57e914287373"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D3D36E2-718F-4BED-90B6-4656AE958EBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Hymns/HymnsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "selectHymn(selectedHymn:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B717AA6E-36F3-41F2-A6F2-4710D6815CD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/LowerContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "handleLowerTapGesture(for:shouldShowList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE75F14C-CBB2-41D8-9665-60C92D12169B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "handleUpperTapGesture(for:shouldShowList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE75F14C-CBB2-41D8-9665-60C92D12169B - 3e3a9d4b4648a8c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.UpperContentView.handleUpperTapGesture(for: Swift.Int, shouldShowList: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "AE75F14C-CBB2-41D8-9665-60C92D12169B - 3e3a9d4b4648a8a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.UpperContentView.handleUpperTapGesture(for: Swift.Int, shouldShowList: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E2980B0-9C8B-42E9-BCE5-219D1856833C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/LowerContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "lowerEditButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2E2980B0-9C8B-42E9-BCE5-219D1856833C - 7fc4854a2e0c5199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ThirdCounselor.LowerContentView.lowerEditButton.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/LowerContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "2E2980B0-9C8B-42E9-BCE5-219D1856833C - eeb0874a30f501e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 () -&gt; () in ThirdCounselor.LowerContentView.lowerEditButton.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/LowerContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7802BE4-D63D-4F3B-978B-C4E42B9E8F2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "upperEditButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E7802BE4-D63D-4F3B-978B-C4E42B9E8F2C - 3a7a848c1eb185e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ThirdCounselor.UpperContentView.upperEditButton.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "E7802BE4-D63D-4F3B-978B-C4E42B9E8F2C - 3109ae52348234c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 () -&gt; () in ThirdCounselor.UpperContentView.upperEditButton.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/UpperContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "630DD6C3-08FE-4678-B520-1B3C8CAE28C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/CommonViews/ListHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "frameHeight"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20D1C108-8D75-45FF-ABF6-390BE6FDF16C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/CommonViews/ListHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "431"
+            endingLineNumber = "431"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4CB60CA-3AD6-46A7-8795-9BEEA5FD215E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/ConductingSheetViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "announcementAnnounced(proclamation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4CB60CA-3AD6-46A7-8795-9BEEA5FD215E - f9be57e914287294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "964">
+               </Location>
+               <Location
+                  uuid = "A4CB60CA-3AD6-46A7-8795-9BEEA5FD215E - 8ac259da300f9d6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ThirdCounselor.ConductingSheetViewModel.announcementAnnounced(proclamation: Swift.String) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE3B8517-5379-4A55-B126-A471E9A45895"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/ConductingSheetViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "announcementAnnounced(proclamation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE3B8517-5379-4A55-B126-A471E9A45895 - f9be57e91428738c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "BE3B8517-5379-4A55-B126-A471E9A45895 - 621a55ed48a11fc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.announcementAnnounced(proclamation: Swift.String) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3761130-4D78-4E3C-8F66-530A204C4699"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "427"
+            endingLineNumber = "427"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B808865-E8FE-4624-BAB2-623D3A0F681D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "477"
+            endingLineNumber = "477"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96878BB4-7709-4A76-BB79-12A42A3EB3E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "619"
+            endingLineNumber = "619"
+            landmarkName = "handleTapGesture(for:upperContent:showPresidingAuthorityAlert:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96878BB4-7709-4A76-BB79-12A42A3EB3E7 - 8da17bb3cb240cc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetView.handleTapGesture(for: Swift.Int, upperContent: Swift.Bool, showPresidingAuthorityAlert: Swift.Bool) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "618"
+                  endingLineNumber = "618"
+                  offsetFromSymbolStart = "2384">
+               </Location>
+               <Location
+                  uuid = "96878BB4-7709-4A76-BB79-12A42A3EB3E7 - 8da17bb3cb240ce7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetView.handleTapGesture(for: Swift.Int, upperContent: Swift.Bool, showPresidingAuthorityAlert: Swift.Bool) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "617"
+                  endingLineNumber = "617"
+                  offsetFromSymbolStart = "2424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3189A118-B235-4F62-8B0C-18C9A055B088"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Announcements/AnnouncementsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3189A118-B235-4F62-8B0C-18C9A055B088 - 25059fec9f1590a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.AnnouncementsListView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Announcements/AnnouncementsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  uuid = "3189A118-B235-4F62-8B0C-18C9A055B088 - a7d678dd03ac0685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in ThirdCounselor.AnnouncementsListView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Announcements/AnnouncementsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "3189A118-B235-4F62-8B0C-18C9A055B088 - a7d678dd03ac06a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in ThirdCounselor.AnnouncementsListView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Announcements/AnnouncementsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "357522B8-7957-4FCC-9582-541CD1D4A75C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "518"
+            endingLineNumber = "518"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "357522B8-7957-4FCC-9582-541CD1D4A75C - 1d5cc7bf76b9a04b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in closure #7 () -&gt; ThirdCounselor.PresidingAuthorityListView in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThirdCounselor.ConductingSheetView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "518"
+                  endingLineNumber = "518"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "357522B8-7957-4FCC-9582-541CD1D4A75C - 1d5cc7bf76b9a04b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in closure #7 () -&gt; ThirdCounselor.PresidingAuthorityListView in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThirdCounselor.ConductingSheetView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "518"
+                  endingLineNumber = "518"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F99CC747-0FD7-458E-8C38-B5529CE21B5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA4FEBDD-EA55-4412-998D-E0704854C0DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA4FEBDD-EA55-4412-998D-E0704854C0DB - d8683b1526be48ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "4104">
+               </Location>
+               <Location
+                  uuid = "FA4FEBDD-EA55-4412-998D-E0704854C0DB - d8683b1526be48ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E737542E-C297-4314-94A5-50358166E1D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E737542E-C297-4314-94A5-50358166E1D0 - d8683b1526be48af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "4092">
+               </Location>
+               <Location
+                  uuid = "E737542E-C297-4314-94A5-50358166E1D0 - d8683b1526be484e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+               <Location
+                  uuid = "E737542E-C297-4314-94A5-50358166E1D0 - d8683b1526be484e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7C361D7-5420-4E47-941C-71B2763E6FCC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7C361D7-5420-4E47-941C-71B2763E6FCC - d8683b1526be48ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "4104">
+               </Location>
+               <Location
+                  uuid = "E7C361D7-5420-4E47-941C-71B2763E6FCC - d8683b1526be488c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "1892">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9453288-3095-4E66-B059-B13DE408A3B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "createOrganizationMemberCalling(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9453288-3095-4E66-B059-B13DE408A3B5 - d8683b1526be4b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "D9453288-3095-4E66-B059-B13DE408A3B5 - d8683b1526be4b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06B81448-CFD0-4F18-A5E8-1751658EFE28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/StakeUnitLeaderPositionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "06B81448-CFD0-4F18-A5E8-1751658EFE28 - 6210050a330bae3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #5 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.preferredColorScheme(Swift.Optional&lt;SwiftUI.ColorScheme&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.environment&lt;&#x3c4;_0_0&gt;(Swift.WritableKeyPath&lt;SwiftUI.EnvironmentValues, &#x3c4;_1_0&gt;, &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.preferredColorScheme(Swift.Optional&lt;SwiftUI.ColorScheme&gt;) -&gt; some&gt;&gt;.0, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, &lt;&lt;opaque return type of SwiftUI.View.environment&lt;&#x3c4;_0_0&gt;(Swift.WritableKeyPath&lt;SwiftUI.EnvironmentValues, &#x3c4;_1_0&gt;, &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.preferredColorScheme(Swift.Optional&lt;SwiftUI.ColorScheme&gt;) -&gt; some&gt;&gt;.0)&gt; in ThirdCounselor.StakeUnitLeaderPositionView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/StakeUnitLeaderPositionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  uuid = "06B81448-CFD0-4F18-A5E8-1751658EFE28 - b008d590c0cecb9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #4 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.environment&lt;&#x3c4;_0_0&gt;(Swift.WritableKeyPath&lt;SwiftUI.EnvironmentValues, &#x3c4;_1_0&gt;, &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.preferredColorScheme(Swift.Optional&lt;SwiftUI.ColorScheme&gt;) -&gt; some&gt;&gt;.0, SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, &lt;&lt;opaque return type of SwiftUI.View.environment&lt;&#x3c4;_0_0&gt;(Swift.WritableKeyPath&lt;SwiftUI.EnvironmentValues, &#x3c4;_1_0&gt;, &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.preferredColorScheme(Swift.Optional&lt;SwiftUI.ColorScheme&gt;) -&gt; some&gt;&gt;.0)&gt; in ThirdCounselor.StakeUnitLeaderPositionView.body.getter : some"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/StakeUnitLeaderPositionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C54BF9C-11B3-46CC-82C0-07A7EDEEC132"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/Members/MemberRow.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MemberRow"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - 59dec984d65c6d1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ThirdCounselor.MemberRow.orgMbrCallingViewModel : ThirdCounselor.OrgMbrCallingViewModel"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - 4a70758bbb29de4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.MemberRow.orgMbrCallingViewModel.getter : ThirdCounselor.OrgMbrCallingViewModel"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - 75c980f311b3f246"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.MemberRow.orgMbrCallingViewModel.setter : ThirdCounselor.OrgMbrCallingViewModel"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - cc39994b12e96749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.MemberRow.orgMbrCallingViewModel.modify : ThirdCounselor.OrgMbrCallingViewModel"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - e2d4b0c6c2b27f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.MemberRow.orgMbrCallingViewModel.modify : ThirdCounselor.OrgMbrCallingViewModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "4F1F3A74-E4C1-4C40-A3DA-299E4C15CFCA - ef5db338830dbb55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.MemberRow.$orgMbrCallingViewModel.getter : SwiftUI.ObservedObject&lt;ThirdCounselor.OrgMbrCallingViewModel&gt;.Wrapper"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/Views/Members/MemberRow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DB3C4F2-AE00-4BCE-A032-B02A2A21E829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/OrgMbrCallingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "fetchOrgMbrCalling()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DB3C4F2-AE00-4BCE-A032-B02A2A21E829 - d8683b1526be4a10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.createOrganizationMemberCalling(from: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "0DB3C4F2-AE00-4BCE-A032-B02A2A21E829 - 9c4046b3fae35c91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.OrgMbrCallingViewModel.fetchOrgMbrCalling() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/OrgMbrCallingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7732D6B-853B-40DE-B19E-027B3A0EBDDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/StakeUnitLeaderPositionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "unitLeaderInformationIsValid(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12CBC6CE-DFD9-4CB2-87D3-56A36C991321"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/StakeUnitLeaderPositionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "unitLeaderInformationIsValid(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B95A8AF7-7166-461D-8C33-7C60B7DA36B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/StakeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B95A8AF7-7166-461D-8C33-7C60B7DA36B1 - e85acef2cbb1bead"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.StakeViewModel.fetchData(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/StakeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "B95A8AF7-7166-461D-8C33-7C60B7DA36B1 - e85acef2cbb1bead"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.StakeViewModel.fetchData(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/StakeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA2FDE81-6A82-42BE-AC50-B75C14063F2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Controllers/SplashScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9309471-6C71-4405-88C1-7BA9C4BEB7F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/Views/ConductingSheet/ConductingSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F19D1461-050D-4B74-BD78-4E5745C2E7DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThirdCounselor/View Models/ConductingSheetViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "setConductingSheetSection()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F19D1461-050D-4B74-BD78-4E5745C2E7DD - f9be57e9142881b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "338"
+                  endingLineNumber = "338"
+                  offsetFromSymbolStart = "9580">
+               </Location>
+               <Location
+                  uuid = "F19D1461-050D-4B74-BD78-4E5745C2E7DD - f9be57e9142881b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThirdCounselor.ConductingSheetViewModel.setConductingSheetSection() -&gt; ()"
+                  moduleName = "ThirdCounselor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deanwagstaff/Desktop/ThirdCounselor%20build%20108%20AO%207:11:22%20as%20of%201:21:23/ThirdCounselor/View%20Models/ConductingSheetViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "338"
+                  endingLineNumber = "338"
+                  offsetFromSymbolStart = "8164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

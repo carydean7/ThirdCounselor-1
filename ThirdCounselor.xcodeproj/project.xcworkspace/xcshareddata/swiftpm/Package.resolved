@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AsyncCloudKit",
+        "repositoryURL": "https://github.com/chris-araman/AsyncCloudKit.git",
+        "state": {
+          "branch": null,
+          "revision": "218cc6e40228d3ee03fbd8f9253ecda762eecf6d",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
