@@ -1,0 +1,96 @@
+
+/* Class = "UIViewController"; title = "PrayersViewController"; ObjectID = "0Io-v6-Hub"; */
+"0Io-v6-Hub.title" = "PrayersViewController";
+
+/* Class = "UITabBarItem"; title = "Callings"; ObjectID = "6Ua-Jn-d2X"; */
+"6Ua-Jn-d2X.title" = "Callings";
+
+/* Class = "UIViewController"; title = "SpeakingAssignmentsViewController"; ObjectID = "6hR-8D-Fjf"; */
+"6hR-8D-Fjf.title" = "SpeakingAssignmentsViewController";
+
+/* Class = "UIViewController"; title = "SpeakingTopicConferenceTalksViewController"; ObjectID = "7gj-59-2WD"; */
+"7gj-59-2WD.title" = "SpeakingTopicConferenceTalksViewController";
+
+/* Class = "UIViewController"; title = "ReportsViewController"; ObjectID = "8Mh-Gk-jDm"; */
+"8Mh-Gk-jDm.title" = "ReportsViewController";
+
+/* Class = "UIViewController"; title = "ConductingViewController"; ObjectID = "9sZ-za-cOn"; */
+"9sZ-za-cOn.title" = "ConductingViewController";
+
+/* Class = "UITabBarItem"; title = "Members"; ObjectID = "CTh-2O-2xb"; */
+"CTh-2O-2xb.title" = "Members";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "DEC-2P-yi6"; */
+"DEC-2P-yi6.text" = "Sign In";
+
+/* Class = "UITabBarItem"; title = "Reports"; ObjectID = "DLU-vw-8dr"; */
+"DLU-vw-8dr.title" = "Reports";
+
+/* Class = "UITabBarController"; title = "TabBarControllerScene"; ObjectID = "EnT-jh-LeR"; */
+"EnT-jh-LeR.title" = "TabBarControllerScene";
+
+/* Class = "UIViewController"; title = "OrganizationalReportViewController"; ObjectID = "Esy-dC-w7d"; */
+"Esy-dC-w7d.title" = "OrganizationalReportViewController";
+
+/* Class = "UIViewController"; title = "HymnsViewController"; ObjectID = "F2K-nR-IF1"; */
+"F2K-nR-IF1.title" = "HymnsViewController";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "LPe-BL-oxl"; */
+"LPe-BL-oxl.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LPe-BL-oxl"; */
+"LPe-BL-oxl.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "OrdinationsViewController"; ObjectID = "LoN-BQ-O1E"; */
+"LoN-BQ-O1E.title" = "OrdinationsViewController";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "OUj-R0-6JP"; */
+"OUj-R0-6JP.configuration.title" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OUj-R0-6JP"; */
+"OUj-R0-6JP.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "LoginViewController"; ObjectID = "TKo-nI-eof"; */
+"TKo-nI-eof.title" = "LoginViewController";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "U1z-48-cOw"; */
+"U1z-48-cOw.placeholder" = "Username";
+
+/* Class = "UIViewController"; title = "MembersViewController"; ObjectID = "U2A-hD-lwI"; */
+"U2A-hD-lwI.title" = "MembersViewController";
+
+/* Class = "UIViewController"; title = "AssignmentsViewController"; ObjectID = "Vn0-KP-Ml0"; */
+"Vn0-KP-Ml0.title" = "AssignmentsViewController";
+
+/* Class = "UIViewController"; title = "ActionsReportViewController"; ObjectID = "X2u-A8-TwR"; */
+"X2u-A8-TwR.title" = "ActionsReportViewController";
+
+/* Class = "UIViewController"; title = "CallingsViewController"; ObjectID = "afk-V6-e8Z"; */
+"afk-V6-e8Z.title" = "CallingsViewController";
+
+/* Class = "UIButton"; configuration.title = "Select"; ObjectID = "apa-nV-KBQ"; */
+"apa-nV-KBQ.configuration.title" = "Select";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "apa-nV-KBQ"; */
+"apa-nV-KBQ.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "InterviewsViewController"; ObjectID = "cdO-a8-sr9"; */
+"cdO-a8-sr9.title" = "InterviewsViewController";
+
+/* Class = "UILabel"; text = "No Outstanding Calling Actions"; ObjectID = "nEj-Q9-EI7"; */
+"nEj-Q9-EI7.text" = "No Outstanding Calling Actions";
+
+/* Class = "UILabel"; text = "REPORTS"; ObjectID = "oRd-aY-7dh"; */
+"oRd-aY-7dh.text" = "REPORTS";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "rzX-lj-yCw"; */
+"rzX-lj-yCw.title" = "Item";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "tmF-wO-f0g"; */
+"tmF-wO-f0g.text" = "Password";
+
+/* Class = "UITabBarItem"; title = "Interviews"; ObjectID = "ubd-fk-wch"; */
+"ubd-fk-wch.title" = "Interviews";
+
+/* Class = "UINavigationItem"; title = "Back"; ObjectID = "x0h-G0-6sG"; */
+"x0h-G0-6sG.title" = "Back";

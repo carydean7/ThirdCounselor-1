@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G313" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AnnouncementsEntity" representedClassName="AnnouncementsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="announced" optional="YES" attributeType="String"/>
+        <attribute name="fyi" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="AssignmentsEntity" representedClassName=".AssignmentsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="actionType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="callingName" optional="YES" attributeType="String"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="organizationName" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CallingsEntity" representedClassName=".CallingsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="callingName" optional="YES" attributeType="String"/>
+        <attribute name="callIsFilled" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InterviewsEntity" representedClassName=".InterviewsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="ldrAssignToDoInterview" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="ordination" optional="YES" attributeType="String"/>
+        <attribute name="scheduledInterviewDate" optional="YES" attributeType="String"/>
+        <attribute name="scheduledInterviewTime" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MembersEntity" representedClassName=".MembersEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="welcomed" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NotesEntity" representedClassName=".NotesEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="leader" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrdinationsEntity" representedClassName="OrdinationsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="datePerformed" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="ordinationOffice" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrganizationsEntity" representedClassName=".OrganizationsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrgMbrCallingEntity" representedClassName=".OrgMbrCallingEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="approvedDate" optional="YES" attributeType="String"/>
+        <attribute name="calledDate" optional="YES" attributeType="String"/>
+        <attribute name="callingAction" optional="YES" attributeType="String"/>
+        <attribute name="callingDisplayIndex" optional="YES" attributeType="String"/>
+        <attribute name="callingName" optional="YES" attributeType="String"/>
+        <attribute name="callingPreviouslyFilledDate" optional="YES" attributeType="String"/>
+        <attribute name="ldrAssignToCall" optional="YES" attributeType="String"/>
+        <attribute name="ldrAssignToSetApart" optional="YES" attributeType="String"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="memberToBeReleased" optional="YES" attributeType="String"/>
+        <attribute name="organizationName" optional="YES" attributeType="String"/>
+        <attribute name="recommendations" optional="YES" attributeType="String"/>
+        <attribute name="recommendedDate" optional="YES" attributeType="String"/>
+        <attribute name="releasedDate" optional="YES" attributeType="String"/>
+        <attribute name="setApartDate" optional="YES" attributeType="String"/>
+        <attribute name="sustainedDate" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PrayersEntity" representedClassName="PrayersEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SpeakingAssignmentsEntity" representedClassName=".SpeakingAssignmentsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="askToSpeakOnDate" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="topic" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="weekNumberInMonthForSunday" optional="YES" attributeType="String"/>
+        <attribute name="weekOfYear" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StakeEntity" representedClassName="StakeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="stakeName" optional="YES" attributeType="String"/>
+        <attribute name="stakeUnitNumber" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="units" optional="YES" attributeType="String"/>
+    </entity>
+    <configuration name="Public">
+        <memberEntity name="CallingsEntity"/>
+        <memberEntity name="InterviewsEntity"/>
+        <memberEntity name="MembersEntity"/>
+        <memberEntity name="OrganizationsEntity"/>
+        <memberEntity name="OrgMbrCallingEntity"/>
+        <memberEntity name="SpeakingAssignmentsEntity"/>
+    </configuration>
+</model>

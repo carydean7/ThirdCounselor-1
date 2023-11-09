@@ -1,0 +1,105 @@
+
+/* Class = "UIViewController"; title = "PrayersViewController"; ObjectID = "0Io-v6-Hub"; */
+"0Io-v6-Hub.title" = "PrayersViewController";
+
+/* Class = "UITabBarItem"; title = "Callings"; ObjectID = "6Ua-Jn-d2X"; */
+"6Ua-Jn-d2X.title" = "Llamados";
+
+/* Class = "UIViewController"; title = "SpeakingAssignmentsViewController"; ObjectID = "6hR-8D-Fjf"; */
+"6hR-8D-Fjf.title" = "SpeakingAssignmentsViewController";
+
+/* Class = "UIViewController"; title = "SpeakingTopicConferenceTalksViewController"; ObjectID = "7gj-59-2WD"; */
+"7gj-59-2WD.title" = "SpeakingTopicConferenceTalksViewController";
+
+/* Class = "UIViewController"; title = "ReportsViewController"; ObjectID = "8Mh-Gk-jDm"; */
+"8Mh-Gk-jDm.title" = "ReportsViewController";
+
+/* Class = "UIViewController"; title = "ConductingViewController"; ObjectID = "9sZ-za-cOn"; */
+"9sZ-za-cOn.title" = "ConductingViewController";
+
+/* Class = "UITabBarItem"; title = "Members"; ObjectID = "CTh-2O-2xb"; */
+"CTh-2O-2xb.title" = "Miembros";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "DEC-2P-yi6"; */
+"DEC-2P-yi6.text" = "Iniciar sesión";
+
+/* Class = "UITabBarItem"; title = "Reports"; ObjectID = "DLU-vw-8dr"; */
+"DLU-vw-8dr.title" = "Informes";
+
+/* Class = "UITabBarController"; title = "TabBarControllerScene"; ObjectID = "EnT-jh-LeR"; */
+"EnT-jh-LeR.title" = "TabBarControllerScene";
+
+/* Class = "UIViewController"; title = "OrganizationalReportViewController"; ObjectID = "Esy-dC-w7d"; */
+"Esy-dC-w7d.title" = "OrganizationalReportViewController";
+
+/* Class = "UIViewController"; title = "HymnsViewController"; ObjectID = "F2K-nR-IF1"; */
+"F2K-nR-IF1.title" = "HymnsViewController";
+
+/* Class = "UIViewController"; title = "SettingsViewController"; ObjectID = "H5E-Ld-Fjr"; */
+"H5E-Ld-Fjr.title" = "SettingsViewController";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "LPe-BL-oxl"; */
+"LPe-BL-oxl.configuration.title" = "Próxima";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LPe-BL-oxl"; */
+"LPe-BL-oxl.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "OrdinationsViewController"; ObjectID = "LoN-BQ-O1E"; */
+"LoN-BQ-O1E.title" = "OrdinationsViewController";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "OUj-R0-6JP"; */
+"OUj-R0-6JP.configuration.title" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OUj-R0-6JP"; */
+"OUj-R0-6JP.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "LoginViewController"; ObjectID = "TKo-nI-eof"; */
+"TKo-nI-eof.title" = "LoginViewController";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "U1z-48-cOw"; */
+"U1z-48-cOw.placeholder" = "Nombre de usuario";
+
+/* Class = "UIViewController"; title = "MembersViewController"; ObjectID = "U2A-hD-lwI"; */
+"U2A-hD-lwI.title" = "MembersViewController";
+
+/* Class = "UIViewController"; title = "BaseViewController"; ObjectID = "VKC-tG-O5B"; */
+"VKC-tG-O5B.title" = "BaseViewController";
+
+/* Class = "UIViewController"; title = "AssignmentsViewController"; ObjectID = "Vn0-KP-Ml0"; */
+"Vn0-KP-Ml0.title" = "AssignmentsViewController";
+
+/* Class = "UIViewController"; title = "ActionsReportViewController"; ObjectID = "X2u-A8-TwR"; */
+"X2u-A8-TwR.title" = "ActionsReportViewController";
+
+/* Class = "UIViewController"; title = "CallingsViewController"; ObjectID = "afk-V6-e8Z"; */
+"afk-V6-e8Z.title" = "CallingsViewController";
+
+/* Class = "UIButton"; configuration.title = "Select"; ObjectID = "apa-nV-KBQ"; */
+"apa-nV-KBQ.configuration.title" = "Seleccionar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "apa-nV-KBQ"; */
+"apa-nV-KBQ.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "InterviewsViewController"; ObjectID = "cdO-a8-sr9"; */
+"cdO-a8-sr9.title" = "InterviewsViewController";
+
+/* Class = "UILabel"; text = "No Outstanding Calling Actions"; ObjectID = "nEj-Q9-EI7"; */
+"nEj-Q9-EI7.text" = "No hay acciones de llamadas pendientes";
+
+/* Class = "UILabel"; text = "REPORTS"; ObjectID = "oRd-aY-7dh"; */
+"oRd-aY-7dh.text" = "INFORMES";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "oia-rp-bjV"; */
+"oia-rp-bjV.title" = "Ajustes";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "rzX-lj-yCw"; */
+"rzX-lj-yCw.title" = "Artículo";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "tmF-wO-f0g"; */
+"tmF-wO-f0g.text" = "Contraseña";
+
+/* Class = "UITabBarItem"; title = "Interviews"; ObjectID = "ubd-fk-wch"; */
+"ubd-fk-wch.title" = "Entrevistas";
+
+/* Class = "UINavigationItem"; title = "Back"; ObjectID = "x0h-G0-6sG"; */
+"x0h-G0-6sG.title" = "Respaldo";
