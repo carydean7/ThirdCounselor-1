@@ -291,7 +291,7 @@ import FirebaseFirestoreSwift
                 case 29...31:
                     weekFiveSundayDate = getAMonthsAbbreviatedString(for: month) + " \(day) \(year)"
                 default:
-                    print("")
+                    break
                 }
             }
             

@@ -20,6 +20,8 @@ struct ConductingSheetSection: Identifiable, Hashable {
     typealias songInfo = (title: String, number: String)
     
     var id = UUID().uuidString
+    
+  //  var uid: String
     var songForSection: Int
     var showList: Bool
     var showTextField: Bool

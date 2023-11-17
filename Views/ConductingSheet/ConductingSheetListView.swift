@@ -16,13 +16,10 @@ struct ConductingSheetListView: View {
     @State private var forgroundColor: Color = Branding.mock.nonDestructiveButton
     @State private var backgroundColor: Color = Branding.mock.destructiveButton
     @State private var selectedSheetIndex: Int? = 0
-//    @State private var showConfirmDeleteOrganization: Bool = false
 
     init(showCloseButton: Bool = false,
-//         showConfirmDeleteOrganization: Bool = false,
          selectedSheetIndex: Int? = 0) {
         self.showCloseButton = showCloseButton
-//        self.showConfirmDeleteOrganization = showConfirmDeleteOrganization
         self.forgroundColor = forgroundColor
         self.backgroundColor = backgroundColor
         self.selectedSheetIndex = selectedSheetIndex

@@ -23,6 +23,13 @@ struct PrayersListView: View, AddButtonDelegate {
     @State private var currentInvocation = ""
     @State private var currentBenediction = ""
     
+    @State private var selectedMemberForInvocation = ""
+    @State private var selectedMemberForBenediction = ""
+    @State private var memberSelectedForInvocation = false
+    @State private var memberSelectedForBenediction = false
+    @State private var showMembersListForInvocation = false
+    @State private var showMembersListForBenediction = false
+
     var headingTitleTopPadding: CGFloat {
         if filterSelection == "History" {
             return CGFloat(0)
@@ -60,7 +67,7 @@ struct PrayersListView: View, AddButtonDelegate {
     }
     
     var currentOrNextWeekPrayers: some View {
-        VStack(alignment: .center, spacing: 20) {
+        VStack(alignment: .center) {
             Text("Current/Next Sunday's")
                 .customText(color: branding.labels,
                             font: branding.paragraphTextAndLinks_Semibold_17pt,
@@ -82,6 +89,29 @@ struct PrayersListView: View, AddButtonDelegate {
                                 width: .infinity,
                                 alignment: .leading)
                 
+                Button {
+                    showMembersListForInvocation.toggle()
+                } label: {
+                    Label("Edit Selected Member for Invocation", systemImage: "person.3.fill")
+                        .font(branding.paragraphTextAndLinks_Semibold_17pt)
+                        .foregroundColor(branding.labels)
+                        .underline()
+                }
+                .frame(maxWidth: .infinity)
+                .sheet(isPresented: $showMembersListForInvocation) {
+                    MembersListView(membersViewModel: membersViewModel,
+                                    orgMbrCallingViewModel: OrgMbrCallingViewModel.shared,
+                                    speakingAssignmentsViewModel: SpeakingAssignmentsViewModel.shared,
+                                    conductingSheetViewModel: ConductingSheetViewModel.shared,
+                                    prayersViewModel: viewModel,
+                                    showMembersList: $showMembersListForInvocation,
+                                    forOrdinances: .constant(false),
+                                    showEditButton: .constant(false)) { member in
+                        selectedMemberForInvocation = member.name
+                        memberSelectedForInvocation = true
+                    }
+                }
+                
                 Text("Benediction:")
                     .customText(color: branding.labels,
                                 font: branding.paragraphTextAndLinks_Semibold_17pt,
@@ -91,6 +121,29 @@ struct PrayersListView: View, AddButtonDelegate {
                                 trailPad: 0,
                                 width: .infinity,
                                 alignment: .leading)
+                
+                Button {
+                    showMembersListForBenediction.toggle()
+                } label: {
+                    Label("Edit Selected Member for Benediction", systemImage: "person.3.fill")
+                        .font(branding.paragraphTextAndLinks_Semibold_17pt)
+                        .foregroundColor(branding.labels)
+                        .underline()
+            }
+                .frame(maxWidth: .infinity)
+                .sheet(isPresented: $showMembersListForBenediction) {
+                    MembersListView(membersViewModel: membersViewModel,
+                                    orgMbrCallingViewModel: OrgMbrCallingViewModel.shared,
+                                    speakingAssignmentsViewModel: SpeakingAssignmentsViewModel.shared,
+                                    conductingSheetViewModel: ConductingSheetViewModel.shared,
+                                    prayersViewModel: viewModel,
+                                    showMembersList: $showMembersListForBenediction,
+                                    forOrdinances: .constant(false),
+                                    showEditButton: .constant(false)) { member in
+                        selectedMemberForBenediction = member.name
+                        memberSelectedForBenediction = true
+                    }
+                }
             }
             .frame(maxWidth: .infinity, alignment: .center)
             
@@ -116,6 +169,38 @@ struct PrayersListView: View, AddButtonDelegate {
                                 alignment: .leading)
             }
             .frame(maxWidth: .infinity, alignment: .center)
+            
+            Button {
+                membersViewModel.isSheet = false
+                membersViewModel.shouldShowCloseButon = false
+                currentInvocation = $selectedMemberForInvocation.wrappedValue
+                currentBenediction = $selectedMemberForBenediction.wrappedValue
+
+                viewModel.showAddPrayerView = false
+                
+                if !$selectedMemberForInvocation.wrappedValue.isEmpty || !$selectedMemberForBenediction.wrappedValue.isEmpty {
+                    let invId = "\(AppDelegate.unitNumber)_\(UUID().uuidString)"
+
+                    let invocationPrayer = Prayer(uid: invId, name: selectedMemberForInvocation, date: convertToString(date: Date(), with: .short), type: "Invocation")
+                    
+                    let benId = "\(AppDelegate.unitNumber)_\(UUID().uuidString)"
+
+                    let benedictionPrayer = Prayer(uid: benId, name: selectedMemberForBenediction, date: convertToString(date: Date(), with: .short), type: "Benediction")
+
+                    let prayers = [invocationPrayer, benedictionPrayer]
+                    
+                    addPrayer(prayers: prayers)
+                    
+//                    addPrayersActionHandler(prayers)
+                  //  dismiss()
+        }
+            } label: {
+                Label("UPDATE PRAYER(s)", systemImage: "hands.sparkles.fill")
+                    .font(branding.paragraphTextAndLinks_Semibold_17pt)
+                    .foregroundColor(branding.nonDestructiveButton)
+            }
+        .frame(maxWidth: .infinity, alignment: .center)
+
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .onViewDidLoad {
@@ -204,6 +289,16 @@ struct PrayersListView: View, AddButtonDelegate {
             }
             .cornerRadius(25.0)
             .environment(\.colorScheme, .light)
+        }
+    }
+    
+    func addPrayer(prayers: [Prayer]) {
+        for prayer in prayers {
+            viewModel.addPrayer(prayer: prayer) { results in
+                viewModel.getCurrentOrNextPrayers {
+                    viewModel.getMembersGivingCurrentOrNextSundaysPrayByType()
+                }
+            }
         }
     }
     

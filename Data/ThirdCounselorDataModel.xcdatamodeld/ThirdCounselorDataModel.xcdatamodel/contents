@@ -91,11 +91,16 @@
         <attribute name="units" optional="YES" attributeType="String"/>
     </entity>
     <configuration name="Public">
+        <memberEntity name="AnnouncementsEntity"/>
+        <memberEntity name="AssignmentsEntity"/>
         <memberEntity name="CallingsEntity"/>
         <memberEntity name="InterviewsEntity"/>
         <memberEntity name="MembersEntity"/>
+        <memberEntity name="NotesEntity"/>
         <memberEntity name="OrganizationsEntity"/>
         <memberEntity name="OrgMbrCallingEntity"/>
+        <memberEntity name="PrayersEntity"/>
         <memberEntity name="SpeakingAssignmentsEntity"/>
+        <memberEntity name="StakeEntity"/>
     </configuration>
 </model>

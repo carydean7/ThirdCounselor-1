@@ -428,7 +428,6 @@ struct ListHeaderView: View {
                                   hasRoundedRect: false,
                                   topPadding: headingTitleTopPadding,
                                   labelText: "", imgScale: .medium, color: .white, selectedAction: { action in
-//                            conductingSheetViewModel.addButtonDelegate?.addButtonAction()
                             showAddAnnouncementAlert = true
                         })
                         .alert("Add Announcement", isPresented: $showAddAnnouncementAlert) {

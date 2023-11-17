@@ -8,16 +8,16 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct Hymn: Identifiable, Codable, Hashable {
-    var id: String? = UUID().uuidString
+struct Hymn: Identifiable {
+    var id: Int
     
-    var uid: String
+ //   var uid: String
     var title: String
     var number: String
 
-    enum CodingKeys: String, CodingKey {
-        case uid
-        case title
-        case number
+//    enum CodingKeys: String, CodingKey {
+//        case uid
+//        case title
+//        case number
+//    }
     }
-}

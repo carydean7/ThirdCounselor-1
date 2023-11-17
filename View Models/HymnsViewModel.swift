@@ -6,10 +6,6 @@
 //
 
 import Foundation
-//import CoreData
-//import Firebase
-//import FirebaseFirestore
-//import FirebaseFirestoreSwift
 
 class HymnsViewModel: BaseViewModel {
     @Published var hymns = [Hymn]()
@@ -18,6 +14,7 @@ class HymnsViewModel: BaseViewModel {
     var sectionSong = 0
     var sectionsNotFound = [String]()
     var hymn = (title: "", number: "")
+    var selectedHymn = ""
 
     static let shared = HymnsViewModel()
 
@@ -37,9 +34,9 @@ class HymnsViewModel: BaseViewModel {
             hymns = getHymns(from: jsonData)
                         
             if !hymns.isEmpty {
-                let sortedHymns = sortHymns()
+                sortHymns(byNumber: false)
                 for section in Constants.hymnsSectionTitles {
-                    self.getHymnGroups(for: section, in: sortedHymns)
+                    self.getHymnGroups(for: section, byNumber: false)
                 }
             }
         }
@@ -52,8 +49,8 @@ class HymnsViewModel: BaseViewModel {
             let json: JSONDictionary = data as! JSONDictionary
             if let hymnsArray = json["hymns"] as? [[String: Any]] {
                 for hymn in hymnsArray {
-                    if let songTitle = hymn["title"] as? String, let number = hymn["number"] as? String {
-                        hymns.append(Hymn(uid: UUID().uuidString, title: songTitle, number: number))
+                    if let songTitle = hymn["title"] as? String, let number = hymn["number"] as? String, let id = (hymn["number"] as? NSString)?.integerValue {
+                        hymns.append(Hymn(id: id, title: songTitle, number: number))
                     }
                 }
             }
@@ -62,10 +59,11 @@ class HymnsViewModel: BaseViewModel {
         return hymns
     }
     
-    func getHymnGroups(for section: String, in hymns: [Hymn]) {
+    func getHymnGroups(for section: String, byNumber: Bool) {
         var group = [Hymn]()
         var sectionFound = false
         
+        if !byNumber {
         for hymn in hymns {
             if section == "I" {
                 print()
@@ -79,9 +77,37 @@ class HymnsViewModel: BaseViewModel {
         if group.count > 0 {
             hymnGroups.append(group)
         }
+
+        } else {
+            var startValue = 0
+            
+            for _ in 0...35 {
+                hymnGroups.append(buildGroups(startValue: startValue, hymns: hymns))
     }
     
-    func sortHymns() -> [Hymn] {
-        hymns.sorted(by: {$0.number < $1.number})
+            print("hymnGroups : \(hymnGroups)")
+    }
+}
+    
+    func buildGroups(startValue: Int, hymns: [Hymn]) -> [Hymn] {
+        var group = [Hymn]()
+        
+        for i in stride(from: startValue, to: startValue + 10, by: 1) {
+            if i < hymns.count {
+                group.append(hymns[i])
+            }
+        }
+        
+        return group
+    }
+    
+    func sortHymns(byNumber: Bool) {
+        if !byNumber {
+            print("sorting by title")
+            hymns = hymns.sorted(by: {$0.title < $1.title})
+        } else {
+            print("sorting by number")
+            hymns = hymns.sorted(by: {$0.id < $1.id})
+        }
     }
 }

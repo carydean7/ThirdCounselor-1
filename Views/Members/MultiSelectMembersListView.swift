@@ -312,8 +312,40 @@ struct RadioButton: View {
     
     @Binding var selections: [String]
     
+    let appDelegate = UIApplication.shared.delegate! as! AppDelegate
+    
     var labelText: String
     var actionHandler: (String) -> Void
+    
+    var leadingPadding: CGFloat {
+        switch (Constants.deviceIdiom) {
+        case .pad:
+            if appDelegate.isLandscape {
+                return CGFloat(20)
+            }
+        case .phone:
+            return CGFloat(-20)
+        @unknown default:
+            return CGFloat(-20)
+        }
+    
+        return CGFloat(-20)
+    }
+    
+    var trailingPadding: CGFloat {
+        switch (Constants.deviceIdiom) {
+        case .pad:
+            if appDelegate.isLandscape {
+                return CGFloat(60)
+            }
+        case .phone:
+            return CGFloat(0)
+        @unknown default:
+            return CGFloat(0)
+        }
+        
+        return CGFloat(0)
+    }
     
     init(orgMbrCallingViewModel: OrgMbrCallingViewModel = OrgMbrCallingViewModel.shared,
          shouldUpdateRadioButton: Bool = false,
@@ -348,12 +380,13 @@ struct RadioButton: View {
                 Label(labelText, systemImage: shouldUpdateRadioButton ? "circle.fill" : "circle")
                     .foregroundColor(branding.navListAccentOr4GroundTextLiteBlueColor)
                     .padding(.leading, 10)
+                    .minimumScaleFactor(0.5)
             }
             .font(branding.paragraphTextAndLinks_Semibold_17pt)
             .frame(maxWidth: .infinity, alignment: .leading)
             .frame(height: 30)
-            .padding(.trailing, 60)
-            .padding(.leading, 20)
+            .padding(.trailing, trailingPadding)
+            .padding(.leading, leadingPadding)
     }
     
     func selectionExists(in selected: String) -> Bool {

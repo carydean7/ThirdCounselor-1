@@ -420,6 +420,32 @@ enum DictionaryKeys: String {
     case welcomed
     case fyi
     case announced
+    case songForSection
+    case showList
+    case showTextField
+    case showAddButton
+    case sheetSection
+    case sectionTitle
+    case upperSectionContent
+    case lowerSectionContent
+    case conducting
+    case presiding
+    case announcements
+    case openingSong
+    case invocation
+    case wardBusinessMoveIns
+    case wardBusinessReleases
+    case wardBusinessSustainings
+    case sacramentSong
+    case musicProviders
+    case speakers
+    case intermediatMusic
+    case ordinations
+    case closingSong
+    case benediction
+    case textFieldPlaceholderText
+    case upperSectionIsEditable
+    case lowerSectionIsEditable
 }
 
 enum ApplySegmentControlActions: Int {
@@ -683,7 +709,7 @@ enum LeadershipPositions: String, CaseIterable {
     case branchPresident
     case branchPresidencyFirstCounselor
     case branchPresidencySecondCounselor
-    case executiveSecretary
+    case branchExecutiveSecretary
 
     var stringValue: String {
         switch self {
@@ -709,8 +735,8 @@ enum LeadershipPositions: String, CaseIterable {
             return "Branch Presidency First Counselor"
         case .branchPresidencySecondCounselor:
             return "Branch Presidency Second Counselor"
-        case .executiveSecretary:
-            return "Executive Secretary"
+        case .branchExecutiveSecretary:
+            return "Branch Executive Secretary"
         }
     }
 }
@@ -863,13 +889,7 @@ enum SelectionAlertMessages: String {
 }
 
 enum CustomTableViewCellsNibName: String {
-    case membersTableViewCell = "MembersTableViewCell"
-    case callingTableViewCell = "CallingTableViewCell"
-    case actionsReportTableViewCell = "ActionsReportTableViewCell"
     case reportTableViewCell = "ReportTableViewCell"
-    case assignedInterviewsTableViewCell = "AssignedInterviewsTableViewCell"
-    case speakingAssignmentTableViewCell = "SpeakingAssignmentTableViewCell"
-    case conductingSheetWelcomeSectionTableViewCell = "ConductingSheetWelcomeSectionTableViewCell"
 }
 
 enum CollectionEntities: String {
@@ -885,6 +905,7 @@ enum CollectionEntities: String {
     case ordinations = "Ordinations"
     case stake = "Stake"
     case announcements = "Announcements"
+    case conductingSheets = "ConductingSheets"
 }
 
 enum ListHeadingTitles: String {
@@ -902,7 +923,7 @@ enum ListHeadingTitles: String {
     case speakingAssignment = "SPEAKING ASSIGNMENT"
     case presidingAuthorities = "PRESIDING AUTHORITIES"
     case interviews = "INTERVIEWS"
-    case prayers = "PRAYERS"
+    case prayers = "PRAYERS & HYMNS"
     case addPrayer = "ADD PRAYER"
     case ordinations = "ORDINATIONS"
     case scheduleNewInterview = "SCHEDULE NEW INTERVIEW"
@@ -931,14 +952,14 @@ enum ConductingSectionsIndexes: Int {
 enum ConductingSectionsTitles: String, CaseIterable {
     case welcome
     case announcements
-    case openingHymn
+    case openingHymnInvocation
     case wardBusinessMoveIns
     case wardBusinessReleases
     case wardBusinessSustainings
     case wardBusinessOrdinations
     case sacramentMusic
     case speakersAndMusic
-    case closingHymn
+    case closingHymnBenediction
     
     var stringValue: String {
         switch self {
@@ -946,8 +967,8 @@ enum ConductingSectionsTitles: String, CaseIterable {
             return "Welcome"
         case .announcements:
             return "Announcements"
-        case .openingHymn:
-            return "Opening Hymn"
+        case .openingHymnInvocation:
+            return "Opening Hymn & Invocation"
         case .wardBusinessMoveIns:
             return "Ward Business Move-ins"
         case .wardBusinessReleases:
@@ -960,8 +981,8 @@ enum ConductingSectionsTitles: String, CaseIterable {
             return "Sacrament Music"
         case .speakersAndMusic:
             return "Speakers & Music"
-        case .closingHymn:
-            return "Closing Hymn"
+        case .closingHymnBenediction:
+            return "Closing Hymn & Benediction"
         }
     }
 }
@@ -997,6 +1018,29 @@ enum ConductingSectionsTableViewHeaderTitles: String {
             return "Hymns"
         case .announcements:
             return "Announcements"
+        }
+    }
+}
+
+enum ReplaceOccurancesOfKeys: String {
+    case member
+    case conductor
+    case accompanist
+    case leader
+    case hymn
+    
+    var stringValue: String {
+        switch self {
+        case .member:
+            return "<Member>"
+        case .conductor:
+            return "<Conductor>"
+        case .accompanist:
+            return "<Accompanist>"
+        case .leader:
+            return "<Leader>"
+        case .hymn:
+            return "<Hymn>"
         }
     }
 }
@@ -1201,27 +1245,27 @@ struct Constants {
         struct Upper {
             static let welcome = "Brothers and Sisters I would like to welcome you to Sacrament Services this morning.  I am Brother <Leader> and I will be conducting today."
             static let announcement =  "I would like to bring to your attention the following announcements..."
-            static let openHymnInvocation = "Our Opening Hymn will be page # <Hymn>"
+            static let openHymnInvocation = "✏️ Edit       Our Opening Hymn will be page # <Hymn>                                                                                               "
             static let moveIns = "Would the following new members please stand as their names are read..."
             static let releases = "The following individuals have been released"
             static let sustainings = "The following individuals have been called and if they are present would they please stand: "
-            static let ordinations = "I would like to invite <Member(s)> to some up to the stand.  We propose that..."
+            static let ordinations = "I would like to invite <Member(s)> to come up to the stand.  We propose that..."
             static let sacrament = "We would like to now prepare for the partaking of the Sacrament by singing Hymn # <Hymn>"
             static let sacramentProgram = "I would like to thank the Aaronic Priesthood for the reverent manner in which they blessed and passed the sacrament, and thank Bro./Sis. <Conductor> and Bro./Sis. <Accompanist> for providing our music.\n\nWe will now go into our sacrament program.  Today we are pleased to hear from:"
-            static let closeHymnBenediction = "Our closing Hymn will be Hymn # <Hymn>"
+            static let closeHymnBenediction = "✏️ Edit       Our closing Hymn will be Hymn # <Hymn>"
         }
         
         struct Lower {
-            static let welcome = "I would like to acknowledge the presence of President <Leader> from the Stake Presidency today, he will be Presiding at this meeting."
+            static let welcome = "✏️ Edit       I would like to acknowledge the presence of President <Leader> \n\t\t\tfrom the Stake Presidency today, he will be Presiding at this meeting.                                                                                                   "
             static let announcement =  ""
-            static let openHymnInvocation = "Following the Hymn the invocation will be offered by <Member>"
+            static let openHymnInvocation = "✏️ Edit       Following the Hymn the invocation will be offered by <Member>                                                       "
             static let moveIns = "Those that would like to welcome them and accept these members in full fellowship in the ward, please indicate by the uplifted hand."
             static let releases = "We propose the they be given a vote of thanks for their service.  Those who wish to express their appreciation may do so by the uplifted hand."
             static let sustainings = "We propose they be sustained.  Those in favor may manifest it by the uplifted hand... Those opposed, if any, may manifest it.  Thank you.  Please be seated."
             static let ordinations = "receive the Aaronic Priesthood and be ordained a (Deacon, Teacher, Priest).  Those in favor may manifest by the uplifted hand.  Those opposed, if any, may manifest it.  "
             static let sacrament = "Following the hymn the Sacrament will be blessed and passed by those holding the Aaronic Priesthood."
             static let sacramentProgram = ""
-            static let closeHymnBenediction = "Following the closing hymn the benediction will be offered by <Member>"
+            static let closeHymnBenediction = "✏️ Edit       Following the closing hymn the benediction will be offered by <Member>"
         }
     }
 }

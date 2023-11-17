@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ConductingSheetView: View, AddButtonDelegate {
+    
     @Environment(\.dismiss) var dismiss
     @Environment(\.branding) var branding
     
@@ -32,7 +33,9 @@ struct ConductingSheetView: View, AddButtonDelegate {
     @State private var announcement: String = ""
     @State private var announcementsFound: Bool = false
     @State private var newMembersFound: Bool = false
-    
+    @State private var selectedMemberForInvocation: String = ""
+    @State private var selectedMemberForBenediction: String = ""
+    @State private var selectedLeaderToPreside: String = ""
     @State private var showAddAnnouncementAlert: Bool = true
     
     @FocusState private var focusConfirm: Bool
@@ -96,6 +99,12 @@ struct ConductingSheetView: View, AddButtonDelegate {
                 })
                 .onAppear {
                     switch viewModel.selectedConductingSheetSection.sheetSection {
+                    case ConductingSectionsIndexes.welcome.rawValue:
+                        if let presiding = viewModel.selectedConductingSheetSection.presiding {
+                            if !presiding.isEmpty {
+                                viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.leader.stringValue, with: presiding)
+                            }
+                        }
                     case ConductingSectionsIndexes.announcements.rawValue:
                         if viewModel.selectedConductingSheetSection.announcements.isEmpty {
                             viewModel.selectedConductingSheetSection.announcements.append("No Announcements")
@@ -134,7 +143,6 @@ struct ConductingSheetView: View, AddButtonDelegate {
                 }
                 
                 VStack {
-                    HStack {
                         ContentView(viewModel: viewModel,
                                     upperContent: true,
                                     showHymnsList: $showHymnsList,
@@ -146,24 +154,6 @@ struct ConductingSheetView: View, AddButtonDelegate {
                             }
                         })
                         
-                        if viewModel.selectedConductingSheetSection.upperSectionIsEditable {
-                            Button {
-                                handleTapGesture(for: viewModel.selectedConductingSheetSection.sheetSection, upperContent: true)
-                            } label: {
-                                Label("Edit", systemImage: "pencil")
-                                    .multilineTextAlignment(.leading)
-                                    .frame(maxWidth: 125, alignment: .trailing)
-                                    .padding()
-                                    .underline()
-                                    .font(branding.paragraphTextAndLinks_Semibold_17pt)
-                                    .foregroundColor(branding.destructiveButton)
-                            }
-                            .frame(maxWidth: 125, alignment: .trailing)
-                            .padding(.bottom, 40)
-                            .padding(.trailing, 0)
-                        }
-                    }
-                    
                     if $viewModel.selectedConductingSheetSection.showTextField.wrappedValue {
                         if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.welcome.rawValue || viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.openingHymn.rawValue ||
                             viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.announcements.rawValue || viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.wardBusinessMoveIns.rawValue {
@@ -340,7 +330,6 @@ struct ConductingSheetView: View, AddButtonDelegate {
                         Spacer().frame(maxHeight: 280)
                     }
                     
-                    HStack {
                         ContentView(viewModel: viewModel,
                                     upperContent: false,
                                     showHymnsList: $showHymnsList,
@@ -353,31 +342,12 @@ struct ConductingSheetView: View, AddButtonDelegate {
                                 showPresidingAuthorityList = true
                             }
                             
-                            handleTapGesture(for: viewModel.selectedConductingSheetSection.sheetSection, upperContent: /*tapInUpperContent*/ false)
+                        handleTapGesture(for: viewModel.selectedConductingSheetSection.sheetSection, upperContent: false)
                             
                             showSelectionListView = true
                             dismiss()
                         })
-                        
-                        if viewModel.selectedConductingSheetSection.lowerSectionIsEditable {
-                            Button {
-//                                tapInUpperContent = false
-                                handleTapGesture(for: viewModel.selectedConductingSheetSection.sheetSection, upperContent: /*tapInUpperContent*/ false)
-                            } label: {
-                                Label("Edit", systemImage: "pencil")
-                                    .multilineTextAlignment(.leading)
-                                    .frame(maxWidth: 125, alignment: .trailing)
-                                    .padding()
-                                    .underline()
-                                    .font(branding.paragraphTextAndLinks_Semibold_17pt)
-                                    .foregroundColor(branding.destructiveButton)
-                            }
-                            .frame(maxWidth: 125, alignment: .trailing)
-                            .padding(.bottom, 40)
-                            .padding(.trailing, 0)
                         }
-                    }
-                }
                 
                 if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.speakersAndMusic.rawValue {
                     Button {
@@ -407,6 +377,22 @@ struct ConductingSheetView: View, AddButtonDelegate {
             }
             .frame(height: UIScreen.main.bounds.height * 0.62)
             .sheet(isPresented: $showMembersList, onDismiss: {
+                if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.openingHymn.rawValue {
+                    if !selectedMemberForInvocation.isEmpty {
+                        viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: selectedMemberForInvocation)
+
+                        viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: selectedMemberForInvocation)
+                    }
+                }
+                
+                if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.closingHymn.rawValue {
+                    if !selectedMemberForBenediction.isEmpty {
+                        viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: selectedMemberForBenediction)
+
+                        viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: selectedMemberForBenediction)
+                    }
+                }
+                
                 showMembersList = false
             }, content: {
                 MembersListView(showCloseButton: false,
@@ -425,6 +411,7 @@ struct ConductingSheetView: View, AddButtonDelegate {
                     switch viewModel.selectedConductingSheetSection.sheetSection {
                     case ConductingSectionsIndexes.openingHymn.rawValue:
                             viewModel.selectedConductingSheetSection.invocation = member.name
+                        selectedMemberForInvocation = member.name
                         
                     case ConductingSectionsIndexes.wardBusinessOrdinations.rawValue:
                         isUpperSection = true
@@ -433,58 +420,81 @@ struct ConductingSheetView: View, AddButtonDelegate {
                         isUpperSection = true
                         var providerExists = false
                         if let musicProviders = viewModel.selectedConductingSheetSection.musicProviders {
-                            for provider in musicProviders {
-                                if provider == member.name {
-                                    providerExists = true
+                            if musicProviders.count == 2 {
+                                for (index, member) in musicProviders.enumerated() {
+                                    switch index {
+                                    case 0:
+                                        viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.conductor.stringValue, with: member)
+                                    case 1:
+                                        viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.accompanist.stringValue, with: member)
+                                    default:
+                                        break
                                 }
                             }
+                            }
+                            //                            for provider in musicProviders {
+                            //                                if provider == member.name {
+                            //                                    providerExists = true
+                            //                                }
+                            //                            }
                             
                             if !providerExists {
                                 viewModel.selectedConductingSheetSection.musicProviders?.append(member.name)
                             }
+                        } else {
+                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: member.name)
                         }
                         
                     case ConductingSectionsIndexes.closingHymn.rawValue:
                         viewModel.selectedConductingSheetSection.benediction = member.name
+                        selectedMemberForBenediction = member.name
                         
                     default:
                         break
                     }
                     
                     if isUpperSection {
-                        if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.speakersAndMusic.rawValue {
-                            if let musicProviders = viewModel.selectedConductingSheetSection.musicProviders {
-                                if musicProviders.count == 2 {
-                                    for (index, member) in musicProviders.enumerated() {
-                                        switch index {
-                                        case 0:
-                                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Conductor>", with: member)
-                                        case 1:
-                                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Accompanist>", with: member)
-                                        default:
-                                            break
+                        if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.openingHymn.rawValue {
                                         }
-                                    }
-                                }
-                            }
+                        //                        if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.speakersAndMusic.rawValue {
+                        //                            if let musicProviders = viewModel.selectedConductingSheetSection.musicProviders {
+                        //                                if musicProviders.count == 2 {
+                        //                                    for (index, member) in musicProviders.enumerated() {
+                        //                                        switch index {
+                        //                                        case 0:
+                        //                                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Conductor>", with: member)
+                        //                                        case 1:
+                        //                                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Accompanist>", with: member)
+                        //                                        default:
+                        //                                            break
+                        //                                        }
+                        //                                    }
+                        //                                }
+                        //                            }
+                        //                        } else {
+                        //                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Member>", with: member.name)
+                        //                        }
                         } else {
-                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: "<Member>", with: member.name)
-                        }
-                    } else {
                         if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.openingHymn.rawValue {
                             if let invocation = viewModel.selectedConductingSheetSection.invocation {
                                 if !invocation.isEmpty {
-                                    viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: "<Member>", with: invocation)
+                                    
+                                    viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: invocation)
+
+                                    viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: invocation)
                                 }
                             }
-                        } else if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.closingHymn.rawValue {
+                        }
+                        if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.closingHymn.rawValue {
                             if let benediction = viewModel.selectedConductingSheetSection.benediction {
                                 if !benediction.isEmpty {
-                                    viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: "<Member>", with: benediction)
+                                    viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetIndex].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: benediction)
+
+                                    viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: benediction)
                                 }
                             }
                         } else {
-                            viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: "<Member>", with: member.name)
+                            viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.member.stringValue, with: member.name)
                         }
                     }
                     
@@ -492,12 +502,37 @@ struct ConductingSheetView: View, AddButtonDelegate {
                 }
             })
             .sheet(isPresented: $showHymnsList, onDismiss: {
+                if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.openingHymn.rawValue {
+                    if let openingSongTitle = viewModel.selectedConductingSheetSection.openingSong?.title, let openingSongNumber = viewModel.selectedConductingSheetSection.openingSong?.number {
+                        if !openingSongTitle.isEmpty {
+                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.hymn.stringValue, with: openingSongTitle + openingSongNumber)
+                        }
+                    }
+                }
+                
+                if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.closingHymn.rawValue {
+                    if let closingSongTitle = viewModel.selectedConductingSheetSection.closingSong?.title, let closingSongNumber = viewModel.selectedConductingSheetSection.closingSong?.number {
+                        if !closingSongTitle.isEmpty {
+                            viewModel.selectedConductingSheetSection.upperSectionContent = viewModel.selectedConductingSheetSection.upperSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.hymn.stringValue, with: closingSongTitle + closingSongNumber)
+                        }
+                    }
+                    
+                }
+
                 showHymnsList = false
             }, content: {
-                HymnsListView { hymn in }
+                HymnsListView { hymn in
+                    hymnsViewModel.selectedHymn = hymn
+                }
             })
             .sheet(isPresented: $showPresidingAuthorityList, onDismiss: {
-                // isSheet = true
+                if viewModel.selectedConductingSheetIndex == ConductingSectionsIndexes.welcome.rawValue {
+                    if !selectedLeaderToPreside.isEmpty {
+                        viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.leader.stringValue, with: selectedLeaderToPreside)
+                    }
+                }
+                
+                showPresidingAuthorityList = false
             }, content: {
                 var key = ""
                 PresidingAuthorityListView(isSheet: $isSheet) { selectedLeaderPosition in
@@ -519,17 +554,26 @@ struct ConductingSheetView: View, AddButtonDelegate {
                         ConductingViewController.presidingAuthorityName = leaderName
                         ConductingSheetViewModel.shared.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].presiding = leaderName
                         
-                        viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: "<Leader>", with: leaderName)
+                        viewModel.selectedConductingSheetSection.lowerSectionContent = viewModel.selectedConductingSheetSection.lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.leader.stringValue, with: leaderName)
                         
-                        viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent?.replacingOccurrences(of: "<Leader>", with: leaderName)
+                        viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.leader.stringValue, with: leaderName)
+                        
+                        selectedLeaderToPreside = leaderName
+                        
                         dismiss()
                         showPresidingAuthorityList = false
                     }
                 }
             })
-            
             .onAppear {
                 switch viewModel.selectedConductingSheetSection.sheetSection {
+                case ConductingSectionsIndexes.welcome.rawValue:
+                    if let presiding = viewModel.selectedConductingSheetSection.presiding {
+                        if !presiding.isEmpty {
+                            viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent = viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].lowerSectionContent?.replacingOccurrences(of: ReplaceOccurancesOfKeys.leader.stringValue, with: presiding)
+                        }
+                    }
+
                 case ConductingSectionsIndexes.announcements.rawValue:
                     if viewModel.selectedConductingSheetSection.announcements.isEmpty {
                         viewModel.selectedConductingSheetSection.announcements.append("No Announments")
@@ -562,6 +606,10 @@ struct ConductingSheetView: View, AddButtonDelegate {
         .frame(height: UIScreen.main.bounds.height * 0.85)
     }
     
+    func loadSheetData(data:  [AnyObject]) {
+        
+    }
+    
     func addButtonAction() {
         viewModel.showAddAnnouncementAlert = true
     }
@@ -581,6 +629,7 @@ struct ConductingSheetView: View, AddButtonDelegate {
             case ConductingSectionsIndexes.openingHymn.rawValue:
                 viewModel.selectedConductingSheetSection.upperSectionContent = Constants.ConductingSheetContents.Upper.openHymnInvocation
                 showHymnsList = true
+                showMembersList = false
                 
             case ConductingSectionsIndexes.sacramentMusic.rawValue:
                 viewModel.selectedConductingSheetSection.upperSectionContent = Constants.ConductingSheetContents.Upper.sacrament
@@ -589,6 +638,7 @@ struct ConductingSheetView: View, AddButtonDelegate {
             case ConductingSectionsIndexes.closingHymn.rawValue:
                 viewModel.selectedConductingSheetSection.upperSectionContent = Constants.ConductingSheetContents.Upper.closeHymnBenediction
                 showHymnsList = true
+                showMembersList = false
                 
             case ConductingSectionsIndexes.wardBusinessOrdinations.rawValue:
                 viewModel.conductingSheetSections[viewModel.selectedConductingSheetSection.sheetSection].upperSectionContent = Constants.ConductingSheetContents.Upper.ordinations
@@ -617,9 +667,13 @@ struct ConductingSheetView: View, AddButtonDelegate {
                 
             case ConductingSectionsIndexes.openingHymn.rawValue:
                 viewModel.selectedConductingSheetSection.lowerSectionContent = Constants.ConductingSheetContents.Lower.openHymnInvocation
+                showHymnsList = false
+                showMembersList = true
                 
             case ConductingSectionsIndexes.closingHymn.rawValue:
                 viewModel.selectedConductingSheetSection.lowerSectionContent = Constants.ConductingSheetContents.Lower.closeHymnBenediction
+                showHymnsList = false
+                showMembersList = true
                 
             default:
                 break

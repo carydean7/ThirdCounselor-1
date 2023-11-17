@@ -15,7 +15,6 @@ import FirebaseFirestoreSwift
     // MARK: - Properties
     @Published var members = [Member]()
     @Published var alphaToMember = [String]()
-   // @Published var sectionedMembers = [[String]]()
     @Published var newMemberAdded: Bool = false
     @Published var newMemberLastNameBeginsWithLetter: String = ""
 

@@ -22,6 +22,23 @@ struct StakeUnitLeaderPositionView: View {
     
     var nextActionHandler: (Bool) -> Void
     
+    let appDelegate = UIApplication.shared.delegate! as! AppDelegate
+    
+    var radioButtonGroupHorizontalLayout: Bool {
+        switch (Constants.deviceIdiom) {
+        case .pad:
+            if appDelegate.isLandscape {
+                 return true
+            }
+        case .phone:
+            return false
+        @unknown default:
+            return false
+        }
+        
+        return false
+    }
+    
     init(forPreLogin: Bool = true,
          unitNumber: String = "",
          selectedLeader: String = "",
@@ -60,6 +77,7 @@ struct StakeUnitLeaderPositionView: View {
             .preferredColorScheme(.light)
             .environment(\.colorScheme, .light)
             
+            if radioButtonGroupHorizontalLayout {
             HStack(spacing: 20) {
                 Text("Select Unit Type:")
                     .font(branding.paragraphTextAndLinks_Semibold_17pt)
@@ -68,8 +86,9 @@ struct StakeUnitLeaderPositionView: View {
                 
                 RadioButtonGroupsView(callback: { selected in
                     selectedUnitType = selected
-                }, forOrdinances: .constant(false), forPreLogin: $forPreLogin,
-                                      layoutHorizontal: true)
+                    }, forOrdinances: .constant(false),
+                                          forPreLogin: $forPreLogin,
+                                          layoutHorizontal: radioButtonGroupHorizontalLayout)
                 .preferredColorScheme(.light)
                 .environment(\.colorScheme, .light)
                 
@@ -95,7 +114,38 @@ struct StakeUnitLeaderPositionView: View {
             .frame(maxWidth: .infinity)
             .frame(alignment: .leading)
             .padding(.leading, 20)
+            } else {
+                    Text("Select Unit Type:")
+                        .font(branding.paragraphTextAndLinks_Semibold_17pt)
+                        .foregroundColor(branding.labels)
+                        .preferredColorScheme(.light)
+                    
+                    RadioButtonGroupsView(callback: { selected in
+                        selectedUnitType = selected
+                    }, forOrdinances: .constant(false),
+                                          forPreLogin: $forPreLogin,
+                                          layoutHorizontal: radioButtonGroupHorizontalLayout)
+                    .preferredColorScheme(.light)
+                    .environment(\.colorScheme, .light)
+                    
+                    Text("Unit Number:")
+                        .font(branding.paragraphTextAndLinks_Semibold_17pt)
+                        .foregroundColor(branding.labels)
+                        .preferredColorScheme(.light)
                         
+                    
+                    TextField("Enter Number:", text: $unitNumber) {
+                        UIApplication.shared.endEditing()
+                    }
+                        .underlineTextField()
+                        .padding(.bottom, 10)
+                        .foregroundColor(branding.labels)
+                        .frame(width: 200)
+                        .foregroundColor(.white)
+                        .font(branding.paragraphTextAndLinks_Regular_17pt)
+                        .preferredColorScheme(.light)
+            }
+                                    
             Text("Select Your Leadership Position")
                 .padding(.bottom, -30)
                 .font(branding.paragraphTextAndLinks_Semibold_17pt)
@@ -104,7 +154,7 @@ struct StakeUnitLeaderPositionView: View {
             
             NavigationStack {
                 List {
-                    ForEach(getLeaderPositions(), id: \.self) { leader in
+                    ForEach(getLeaderPositions(for: selectedUnitType), id: \.self) { leader in
                         RadioButton(shouldUpdateRadioButton: shouldUpdateRadioButton,
                                     labelText: leader, selections: $selections, forRecommendations: false) { selectedLeaderPosition in
                             setUnitLeaderInformation(leader: selectedLeaderPosition, unit: selectedUnitType, number: unitNumber)
@@ -156,17 +206,35 @@ struct StakeUnitLeaderPositionView: View {
             }
             .preferredColorScheme(.light)
         }
+        .frame(width: UIScreen.main.bounds.width * 0.90)
         .background(.white)
         .preferredColorScheme(.light)
         .environment(\.colorScheme, .light)
         .padding(.top, 20)
     }
     
-    func getLeaderPositions() -> [String] {
+    func getLeaderPositions(for unit: String) -> [String] {
         var positions = [String]()
         
         for leader in LeadershipPositions.allCases {
+            switch unit {
+            case "Stake":
+                if leader.stringValue.contains("Stake") || leader.stringValue.contains(unit) {
             positions.append(leader.stringValue)
+        }
+        
+            case "Ward":
+                if leader.stringValue.contains("Bishop") || leader.stringValue.contains(unit) {
+                    positions.append(leader.stringValue)
+                }
+                
+            case "Branch":
+                if leader.stringValue.contains("Branch") || leader.stringValue.contains(unit) {
+                    positions.append(leader.stringValue)
+                }
+            default:
+                positions.append(leader.stringValue)
+            }
         }
         
         return positions

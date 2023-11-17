@@ -314,7 +314,7 @@ struct CallingsAndMbrsInOrgListView: View {
         
         for orgMbrCallings in orgMbrCallingViewModel.orgMbrCallings {
             if orgMbrCallings.organizationName == "Relief Society" {
-                print("")
+               // print("")
             }
             if orgMbrCallings.organizationName == organization.name {
                 orgMbrKallings.append(orgMbrCallings)

@@ -112,14 +112,14 @@ import SwiftUI
         self.conductingSheetSections = conductingSheetSections
         super.init()
         
-        fetchConductingSheetsData() { fetched in
+        fetchData() { fetched in
             if fetched {
                 self.setConductingSheetSection()
             }
         }
     }
     
-    func fetchConductingSheetsData(completion: @escaping (Bool) -> Void) {
+    func fetchData(completion: @escaping (Bool) -> Void) {
         getOrdinanceInterviews()
 
         AnnouncementsViewModel.shared.fetchData {
@@ -218,9 +218,11 @@ import SwiftUI
     }
     
     func setConductingSheetSection() {
-        if !conductingSheetSections.isEmpty {
-            conductingSheetSections.removeAll()
-        }
+//        if !conductingSheetSections.isEmpty {
+//            conductingSheetSections.removeAll()
+//        }
+        
+        print("currentWeeksPrayers : \(PrayersViewModel.shared.currentWeeksPrayers)")
         
         for prayer in PrayersViewModel.shared.currentWeeksPrayers {
             if !prayer.name.isEmpty {
@@ -240,6 +242,7 @@ import SwiftUI
             contents[ConductingSectionsIndexes.closingHymn.rawValue].lowerContent =  contents[ConductingSectionsIndexes.closingHymn.rawValue].lowerContent.replacingOccurrences(of: "<Member>", with: benediction)
         }
         
+        if contents.count < 11 {
         for content in contents {
             switch content.index {
             case ConductingSectionsIndexes.welcome.rawValue:
@@ -302,7 +305,7 @@ import SwiftUI
                     showTextField: true,
                     showAddButton: false,
                     sheetSection: 2,
-                    sectionTitle: ConductingSectionsTitles.openingHymn.stringValue,
+                        sectionTitle: ConductingSectionsTitles.openingHymnInvocation.stringValue,
                     upperSectionContent: content.upperContent,
                     lowerSectionContent: content.lowerContent,
                     conducting: "",
@@ -491,7 +494,7 @@ import SwiftUI
                     showTextField: false,
                     showAddButton: false,
                     sheetSection: 9,
-                    sectionTitle: ConductingSectionsTitles.closingHymn.stringValue,
+                        sectionTitle: ConductingSectionsTitles.closingHymnBenediction.stringValue,
                     upperSectionContent: content.upperContent,
                     lowerSectionContent: content.lowerContent,
                     conducting: "",
@@ -515,8 +518,8 @@ import SwiftUI
             default:
                 break
             }
+            }        }
         }
-    }
     
     func convertTupleToStringArray(for type: TupleTypes) {
         switch type {
